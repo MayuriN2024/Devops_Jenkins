@@ -28,3 +28,41 @@ Click on Apply and save
 5. Once job executed successfully, go to tomcat server dashboard and see application should be displayed.
 
 6. Click on the application name (it shuld display our application)
+
+=====================================================================================================================
+How to create Jenkins Jobs with Buiild Parameters
+
+Build Parameters are used to supply dynamic inputs to run the job
+using Build Parameters we can avoid hard coding in jenkins job Configuration     
+    Ex we can pass branch name as build parameter in runtime
+
+Open jenkins Job
+In General section => select This project is parameterized option
+Select choice parameter
+Enter name as branch
+Give Choices like below
+
+
+master 
+develop
+
+In source code management, Give branch name ot take dynamic value like below 
+    */${branch}
+
+
+
+
+
+=========================================================
+user and Roles management in Jenkins
+============================================================
+In our Project multiple teams will be availble
+
+a. Development team
+b. Testing team
+c. Devops Team
+
+For every Team member Jenkins login access will be provided
+Note: Every team members will have their own user account ot login into jenkins.
+  Operations team members are respoinsible to create /edit /delete / run jenkins jobs
+  Dev and Testing team members are only responsible to run the jenkins job
