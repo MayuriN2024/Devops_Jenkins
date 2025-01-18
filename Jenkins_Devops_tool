@@ -1,0 +1,33 @@
+Jenkins is a open and free source software.
+Developed by using Java Language
+It si called as cI CD server 
+
+CI : Continuous Integration
+CD: Continuous Delivery
+
+CI CD is one approach ot automate project build and deployment process
+Using Jenkins we can deploy any type of projects (ex.: java , python, .net, react, angular).
+
+
+Continuous integration (CI): Automates testing and reporting on changes to a codebase 
+Continuous delivery (CD): Prepares code for deployment and delivery to containers, virtual machines, and cloud servers 
+
+
+Y jenkins?????????????????????????????????
+" the work we do manually jenkins can automate that work"
+if we do build and delployment process manually than it s time taking processa nd error prone.
+to overcome above problems, we need to automate project build and deployment process.
+ to auotmate project build and deployment process we will use jenkins.
+
+Jenkins is an open-source automation tool that helps development teams manage the software delivery process. It's used to: 
+Automate testing: Jenkins can automatically test code changes in real time. 
+Integrate code: Jenkins can integrate code branches into a main branch. 
+Deploy code: Jenkins can deploy code to containers, virtual machines, and cloud servers. 
+Speed up development: Jenkins can automate and speed up the software development process.
+
+
+ 
+
+
+
+
