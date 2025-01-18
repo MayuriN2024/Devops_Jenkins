@@ -10,7 +10,7 @@ Direct:
 Step 1: Create LInux VM
 a. Create ubuntu VM using AWS EC2 (t2. medium) coz micro is not suitable its not that much capable
 b. Enable 8080 port number in security group inbound Rules
-3. Connect to VM using putty/Mobaxterm/gitbash.
+3. Connect to VM using putty/Mobaxterm/gitbash. 
 
 
 step 2: Install Java
