@@ -63,4 +63,20 @@ Active: active (running) since Tue 2018-11-13 16:19:01 +03; 4min 57s ago
 
 
 ==========================================================================
+
+step 5: Open jenkins server in browser using VM public ip
+http://public-ip:8080/
+
+----------------------------------------------------------------------------------------------
+
+step 6: copy jenkins admin pswdl
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+if we run above command we will get paswd just copy and paste in jenkins front page
+
+-----------------------------------------------------------------------------
+
+
+
+Jenkins 2.479.3
 or u can refer official website: https://www.jenkins.io/doc/book/installing/linux/
+
