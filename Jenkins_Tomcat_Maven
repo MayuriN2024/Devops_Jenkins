@@ -1,0 +1,30 @@
+Create Jenkins job with Git Repo and Maven Nd Tomcat server
+
+1. Tomcat Server Setup in Linux VM
+2.Install Depoly to container plugin in Jenkins
+Go to Jenkins Dashboard -> Manage jenkins -> Mange plugins -> goto availabel tab -> 
+serach for "Deploy to Container " Plugin -> Install without restart.
+
+3. Create Jenkins Job (Free style project)
+  Enter Item Name (job Name )
+Select Free style project and Click ok
+Enter some description
+Go to "Source Code Management" Tab and select "Git"
+Enter proeject "Git Repo URL"
+Go to "Build tab"
+Click on Add Build step and Select "Invoke top Level Maven Targets"
+    Select maven and enter goals "Clean package"
+Click on "post Build Action" and Select " Deploy /war/ear to container " option
+Give path of war file (You can give like this also : **/*.War)
+Enter context path (Give project name Ex: java_web_app)
+Click on "Add Container " and Selelct Tomcat Version 9.x
+    Add Tomcat server credentials (give the username and pwd which is having manager -script role)
+Enter tomcat server URL (http://exw-vm-ip: tomcat-server-port)
+Click on Apply and save
+
+
+4. Run the job now using "Build now" option and see "Console output" of job
+
+5. Once job executed successfully, go to tomcat server dashboard and see application should be displayed.
+
+6. Click on the application name (it shuld display our application)
