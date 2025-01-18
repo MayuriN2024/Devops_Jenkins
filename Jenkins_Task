@@ -65,3 +65,22 @@ step3: Take project git rep( any repo)
 
 
 step 4:  create jenkins task
+  New Item
+  Enter Item Name (any name)
+  Select 'Free style project ' and click ok
+  Enter some description
+  Go to "Source code Mangement" Tab and selct "Git"
+  Enter Project "Git Repo URL"(any java project)
+  Go to "Build Tab"
+  Click on Add build step and select "Invoke Top Level Maven Targets"
+  Select maven and Enter Goals "Clean Package"
+  Click on Apply and Save
+
+NOte: with above steps we have created Jenkins task
+
+step 5: Click on 'Build Now' to start job execution
+
+step 6: Click on 'Build Number' and then click on "console output" to see job execution details
+jenkins home directory in EC2: cd /var/lib/jenkins/workspace/
+
+step 7: Go to jenkins workspace and then go to job folder then go to target folder there we see war file created.
