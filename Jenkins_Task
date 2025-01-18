@@ -84,3 +84,9 @@ step 6: Click on 'Build Number' and then click on "console output" to see job ex
 jenkins home directory in EC2: cd /var/lib/jenkins/workspace/
 
 step 7: Go to jenkins workspace and then go to job folder then go to target folder there we see war file created.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
