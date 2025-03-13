@@ -101,6 +101,10 @@ http://<your-server-ip>:8080
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
+=========================
+we use Docker as agent in out first jenkins project setup and  we found it is very useful interms of cost and also in term of efficiency and 
+spinning docker containers.
+
 
 
 
