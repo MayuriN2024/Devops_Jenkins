@@ -79,6 +79,28 @@ if we run above command we will get paswd just copy and paste in jenkins front p
 
 Jenkins 2.479.3
 or u can refer official website: https://www.jenkins.io/doc/book/installing/linux/
+==================================================================================================================================
+
+sudo apt update
+
+sudo apt install openjdk-11-jdk
+
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt update
+sudo apt install jenkins
+
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+
+sudo systemctl status jenkins
+http://<your-server-ip>:8080
+
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
 
 
 
